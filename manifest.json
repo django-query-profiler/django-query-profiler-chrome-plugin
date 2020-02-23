@@ -1,0 +1,16 @@
+{
+	"name": "Django Query Profiler",
+	"version": "0.1",
+	"description": "django query profiler",
+	"manifest_version": 2,
+	"devtools_page": "devtools.html",
+	"options_ui": {
+    	"page": "panel_table.html",
+    	"chrome_style": true
+	},
+	"permissions": [
+		"<all_urls>",
+		"webRequest",
+		"webRequestBlocking"
+	]
+}
