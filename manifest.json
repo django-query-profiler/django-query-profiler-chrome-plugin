@@ -1,7 +1,8 @@
 {
 	"name": "Django Query Profiler",
+	"short_name": "Django Query Profiler",
+	"description": "chrome plugin for the django query profiler pypi package: https://pypi.org/project/django-query-profiler/",
 	"version": "0.1",
-	"description": "django query profiler",
 	"manifest_version": 2,
 	"devtools_page": "devtools.html",
 	"options_ui": {
@@ -12,5 +13,11 @@
 		"<all_urls>",
 		"webRequest",
 		"webRequestBlocking"
-	]
+	],
+	"icons": {
+		"16":  "icons/icon16.png",
+		"32":  "icons/icon32.png",
+		"48":  "icons/icon48.png",
+		"128": "icons/icon128.png"
+	}
 }

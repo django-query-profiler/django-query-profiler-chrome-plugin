@@ -2,7 +2,7 @@
 Django query profiler chrome plugin
 ===================================
 
-This project contains the chrome plugin code for `django query profiler` -  code `here <https://github.com/django-query-profiler/django-query-profiler/>`_, docs `here <https://django-query-profiler.readthedocs.io/en/latest/>`_.
+This project contains the chrome plugin code for `django query profiler` -  code `here <https://github.com/django-query-profiler/django-query-profiler/>`__, docs `here <https://django-query-profiler.readthedocs.io/en/latest/>`__.
 It reads the header set by the `django_query_profiler`, and adds to a html table in the plugin
 
 
@@ -37,4 +37,4 @@ For contributors
 ================
 
 The `django query profiler chrome plugin` is released under the BSD license, like `django query profiler` and Django itself.
-If you like it, please consider contributing! How the code is organized, and how the profiler works is documented `here in readthedocs <https://django-query-profiler.readthedocs.io/en/latest/how_it_works.html>`_
+If you like it, please consider contributing! How the code is organized, and how the profiler works is documented `here in readthedocs <https://django-query-profiler.readthedocs.io/en/latest/how_it_works.html>`__
