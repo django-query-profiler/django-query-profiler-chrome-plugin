@@ -10,7 +10,7 @@
     	"chrome_style": true
 	},
 	"permissions": [
-		"<all_urls>",
+		"activeTab",
 		"webRequest",
 		"webRequestBlocking"
 	],
