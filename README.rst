@@ -2,18 +2,24 @@
 Django query profiler chrome plugin
 ===================================
 
-This project contains the chrome plugin code for `django query profiler` -  code `here <https://github.com/django-query-profiler/django-query-profiler/>`__, docs `here <https://django-query-profiler.readthedocs.io/en/latest/>`__.
-It reads the header set by the `django_query_profiler`, and adds to a html table in the plugin
+.. image:: https://img.shields.io/chrome-web-store/v/ejdgfhecpkhdnpdmdheacfmknaegicff.svg
+   :target: https://chrome.google.com/webstore/detail/django-query-profiler/ejdgfhecpkhdnpdmdheacfmknaegicff
+
+.. image:: https://readthedocs.org/projects/django-query-profiler/badge/?version=latest
+  :target: https://django-query-profiler.readthedocs.io/en/latest/chromium_plugin_columns.html
+
+This project contains the chrome plugin code for `django query profiler` -  code for which is `here <https://github.com/django-query-profiler/django-query-profiler/>`__, and docs `here <https://django-query-profiler.readthedocs.io/en/latest/>`__.
+The chrome plugin reads the response headers set by the `django_query_profiler` middleware, and adds the profiled data to a html table in the devtools
 
 
 Getting Started
 ===============
 
-This is the `link <https://chrome.google.com/webstore/devconsole/24f090a4-0ba1-4744-b291-1c723f6b1e5d/abdcoolndccdlolelmkdobbcbcjnmblh/edit/package?hl=en>`_ to the chrome web store, for getting the plugin
+Download from `chrome webstore <https://chrome.google.com/webstore/detail/django-query-profiler/ejdgfhecpkhdnpdmdheacfmknaegicff>`__
 
 
-How the plugin works
-====================
+How the code is organized
+========================
 
 manifest.json is the entry point for the chrome plugin.  It has two important attributes that define how the plugin works:
 
@@ -36,5 +42,8 @@ manifest.json is the entry point for the chrome plugin.  It has two important at
 For contributors
 ================
 
-The `django query profiler chrome plugin` is released under the BSD license, like `django query profiler` and Django itself.
+.. image:: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
+   :target: http://makeapullrequest.com
+
+The `django query profiler chrome plugin` is released under the BSD license, like Django itself.
 If you like it, please consider contributing! How the code is organized, and how the profiler works is documented `here in readthedocs <https://django-query-profiler.readthedocs.io/en/latest/how_it_works.html>`__
