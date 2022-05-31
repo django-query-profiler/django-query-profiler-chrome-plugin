@@ -7,7 +7,7 @@
 	},
 	"name": "Django Query Profiler",
 	"short_name": "Django Query Profiler",
-	"description": "chrome plugin for the django query profiler pypi package: https://pypi.org/project/django-query-profiler/",
+	"description": "Plugin for the Django query profiler PyPI package: https://pypi.org/project/django-query-profiler/",
 	"version": "0.1",
 	"manifest_version": 2,
 	"devtools_page": "devtools.html",
