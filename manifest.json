@@ -1,4 +1,10 @@
 {
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "{fd705df6-0f9f-492a-8709-69a343098835}",
+			"strict_min_version": "54.0"
+		}
+	},
 	"name": "Django Query Profiler",
 	"short_name": "Django Query Profiler",
 	"description": "chrome plugin for the django query profiler pypi package: https://pypi.org/project/django-query-profiler/",

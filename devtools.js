@@ -8,7 +8,7 @@ var PanelWindow;
  */
 chrome.devtools.panels.create(
 	"Django Query Profiler",
-	null,
+	"",
 	"panel_table.html",
 	function (extensionPanel) {
 		extensionPanel.onShown.addListener(
